@@ -333,7 +333,7 @@ header {
   display: flex;
 }
 
-.our-work-item-text {
+.busyness__text {
   position: absolute;
   bottom: 0;
   font-weight: 700;
@@ -342,9 +342,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-}
 
-.our-work-item-text {
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   height: 70px;
@@ -354,7 +352,7 @@ header {
 }
 
 /*----------------team-----------------*/
-.team-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -365,11 +363,11 @@ header {
   color: var(--secondary-title-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-card {
+.team__card {
   width: 270px;
   height: 428px;
   left: 215px;
@@ -381,16 +379,16 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-item:not(:last-child) {
+.card--item:not(:last-child) {
   margin-right: 30px;
 }
 
-.picture-names {
+.team__desk {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-card-title {
+.card__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -401,7 +399,7 @@ header {
   color: var(--secondary-title-color);
 }
 
-.team-card-position {
+.card__position {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -411,7 +409,7 @@ header {
   color: var(--primary-text-color);
 }
 
-.team-icon {
+.team__icon {
   width: 20px;
   height: 20px;
   margin-right: auto;
@@ -424,17 +422,17 @@ header {
   background-color: var(--third-background-color);
 }
 
-.social-item {
+.social__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.social-item:last-child {
+.social__item:last-child {
   margin-right: 0;
 }
 
-.social-link {
+.social__link {
   width: 100%;
   height: 100%;
   display: block;
@@ -450,12 +448,12 @@ header {
   transition-delay: 0ms;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social__icon {
   fill: #afb1b8;
 
   transition-property: fill;
@@ -464,12 +462,12 @@ header {
   transition-delay: 0ms;
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.social__link:hover .social__icon,
+.social__link:focus .social__icon {
   fill: #ffffff;
 }
 
-.social-list {
+.social__list {
   display: flex;
   justify-content: center;
 }
@@ -666,8 +664,8 @@ header {
   transition-delay: 0ms;
 }
 
-.social-link-footer:hover .social-icon,
-.social-link-footer:focus .social-icon {
+.social-link-footer:hover .social__icon,
+.social-link-footer:focus .social__icon {
   fill: #ffffff;
 }
 
